@@ -1,6 +1,6 @@
-cat in9.txt | grep -o ".*?$"
+cat in9.txt | grep -o "[0-9]\+.\+"
 
-cat in10.txt | grep -o "\s[abc]\+"
+cat in10.txt | grep -o "^.\.\s.\+\s\?"
 
 cat in13b.txt | grep -o "^Jan.*"
 cat in13b.txt | grep -o "^Aug.*"
@@ -11,4 +11,4 @@ cat in17.txt | grep "[0-9]"
 
 cat Találja\ meg\ a\ tört\ számokat..txt | grep -o ".*\..*"
 
-cat Találja\ meg\ az\ email\ címeket..txt | grep -o ".\+@.\+\..\+"
+cat Találja\ meg\ az\ email\ címeket..txt | grep -o "^[^+]\+@.\+\..\+"
