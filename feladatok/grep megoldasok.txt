@@ -1,0 +1,3 @@
+cat in9.txt | grep -o ".*?$"
+
+cat in10.txt | grep  "\s"
