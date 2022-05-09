@@ -5,7 +5,9 @@ cat in10.txt | grep -o "\s[abc]\+"
 cat in13b.txt | grep -o "^Jan.*"
 cat in13b.txt | grep -o "^Aug.*"
 
-cat in16.txt | grep -o "[A-Z].*\."
+cat in16.txt | grep -o "^[A-Z].\+\.$"
+
+cat in17.txt | grep "[0-9]"
 
 cat Találja\ meg\ a\ tört\ számokat..txt | grep -o ".*\..*"
 
