@@ -16,3 +16,5 @@ cat in17.txt | grep -o "^\(+40\)\?\(0040\)\?1\?\s\?(\?\([0-9]\{3\}\))\?-\?\s\?\(
 cat Találja\ meg\ az\ email\ címeket..txt | grep -o "^.\+@.\+\..\+$"
 
 cat Találja\ meg\ az\ első\ 4\ sort.txt | grep -oE "^ftp:.+|http:.+|file:.+|https:.+"
+
+new line
