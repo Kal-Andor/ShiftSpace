@@ -9,7 +9,7 @@ cat in15.txt | grep -o "I love \(cats\|dogs\)"
 
 cat in16.txt | grep -o "^[A-Z].\+\.$"
 
-cat Találja\ meg\ a\ tört\ számokat..txt | grep -o  "^\-\?[0-9]\+\.[0-9]\?\(\e-\)\?[0-9]\+$"
+cat Találja\ meg\ a\ tört\ számokat..txt | grep -o  "^\-\?\([0-9]\+,\)\?[0-9]\+\.[0-9]\?\(\e-\)\?[0-9]\+$"
 
 cat in17.txt | grep -o "^\(+40\)\?\(0040\)\?1\?\s\?(\?\([0-9]\{3\}\))\?-\?\s\?\([0-9]\{3\}\))\?-\?\s\?\([0-9]\{3,4\}\)"
 
